@@ -38,12 +38,13 @@ middle) which will always partition the array into roughly half .
 small arrays.
 
 
-## RESULT
+## Result
 We have tested all the above-mentioned sorting techniques for different values (eg : 500, 1000
 and so on till 50000 inputs which are randomly sorted ) and plotted the graph between Execution
 Time (milli seconds ) and size of input array. The graph is shown below.
+![image](https://user-images.githubusercontent.com/26118364/50178015-68babe00-02d1-11e9-811f-ad1c7b3acfd9.png)
 Figure 1: Comparison of sorting techniques
-Analysis:
+## Analysis
 • In Figure 1, we can evidently see that the best performing sorting algorithm has to be
 merge sort as the input size of randomly sorted data increases, followed by the In-place
 quick sort, Modified quick sort and lastly insertion sort.
@@ -73,7 +74,7 @@ performance of this algorithm is best compared to other algorithms when provided
 smaller data. When larger data is provided its performance is good, but not as good as
 merge sort.
 
-## CONCLUSION
+## Conclusion
 From the results observed by all sorting algorithms, we can see that merge sort has the best stable
 performance when provided with any kind of input. In-place quick sort was found to be the
 fastest algorithm but in special case analysis we were faced with limitations of stack overflow for
